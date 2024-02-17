@@ -1,0 +1,39 @@
+.button {
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: #0AC883;
+    box-shadow: 0px 8px 20px rgba(24, 219, 148, 0.35);
+    border-radius: 50px;
+    
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.14;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+
+    transition:
+    background-color 0.2s ease-in, 
+    color 0.2s ease-in
+}
+
+.main-inner-contacts .button {
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+.button:hover, .button:focus {
+    background-color: #00774c;
+    color: #fff;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+    background-color: #043e20;
+    color: #fff;
+}

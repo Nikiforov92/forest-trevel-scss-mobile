@@ -1,0 +1,12 @@
+.logo {
+    font-size: 40px;
+    line-height: 1.25;
+    font-family: 'Lobster', cursive;
+}
+
+.header-inner .logo {
+    /* Mobile */
+    @media (max-width: 899px) {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,128 @@
+html {
+    height: 100%;     /* Sticky footer */
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;  /* Sticky footer */
+    flex-direction: column;
+    height: 100%;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.29;
+    color: #31405B;
+}
+
+body > * {
+    flex-shrink: 0; /* Sticky footer */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+input {
+    font-family: 'PT Sans', sans-serif;
+}
+
+label {
+    cursor: pointer;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/* Inner page*/
+
+.main-bc-color {
+    background-color: #F2F8F6;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #265847;
+    background-image: url(./../img/tours/header-small-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+
+   /* Mobile */
+   @media (max-width: 899px) {
+       height: 80px;
+   }
+}
+
+.main-inner {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #F2F8F6;
+}
+
+/* стили заголовков */
+.main-header {
+    font-size: 54px;
+}
+
+.main-inner-header {
+    font-size: 54px;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        font-size: 50px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        font-size: 42px; 
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        font-size: 28px;
+    }
+}
+
+
+
